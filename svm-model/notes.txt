@@ -1,0 +1,14 @@
+1. Create pattern files for training data 
+        create-pats.R
+        create-pats-mgw.R
+2. Train SVMs for all window sizes 
+        train-svm-steps.R
+        train-svm-mgw.R
+3. Get performance levels and plot manuscript figures.
+        get-performance-ws.sh
+        performance-plots.R
+
+        get-performance-ws-mgw.sh
+        performance-plots-mgw.R
+3. Compare pattern files between 10ns and 100ns MD
+        compare-pats-10-100ns.R
